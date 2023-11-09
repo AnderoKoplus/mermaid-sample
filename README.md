@@ -1,5 +1,6 @@
 # mermaid-sample
 
+```mermaid
  classDiagram
       Animal <|-- Duck
       Animal <|-- Fish
@@ -12,7 +13,7 @@
           +String beakColor
           +swim()
           +quack()
-      }
+       }
       class Fish{
           -int sizeInFeet
           -canEat()
@@ -20,5 +21,6 @@
       class Zebra{
           +bool is_wild
           +run()
-      }
-     
+      }  
+    
+```
